@@ -247,6 +247,8 @@ fetch(request)
 
 打开项目下的`fping-msys2.0`目录运行`自动查找最优CF节点-懒人专用.bat`
 
+注意： .bat文件在windows下使用notepad++改为windows，编辑->文档格式转换->转为windows
+
 ![image-20200615215435278](img/README/image-20200615215435278.png)
 
 这里假设我获取的最优ip是`104.17.188.91`
