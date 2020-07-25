@@ -213,7 +213,8 @@ cloudflare官网：https://www.cloudflare.com/
 addEventListener(
 "fetch",event => {
 let url=new URL(event.request.url);
-url.hostname="ibmyes.us-south.cf.appdomain.cloud";
+url.hostname="你的应用域名";
+url.pathname ="/+你的webSocket路径";
 let request=new Request(url,event.request);
 event. respondWith(
 fetch(request)
